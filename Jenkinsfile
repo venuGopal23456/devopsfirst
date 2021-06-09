@@ -5,6 +5,7 @@ pipeline {
             steps {
                   echo 'Building the Applicaion'
             }
+        }
            stage('Test') {
             steps {
                 echo 'Testing the Applicaion'
@@ -16,6 +17,6 @@ pipeline {
                 
             }
         }
-        }
+        
     }
 }
